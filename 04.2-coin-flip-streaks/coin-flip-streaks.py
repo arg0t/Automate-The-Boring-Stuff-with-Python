@@ -18,10 +18,10 @@ for experimentNumber in range(10000):
             numberOfSameSide += 1
             if numberOfSameSide == streak:
                 numberOfStreaks += 1
-                numberOfSameSide = 1 # Reset the value when the new streak found.
+                numberOfSameSide = 1 # Reset the value when the new streak is found.
                 count += 2
             else:
-                count += 1 # Reset the value when the new streak lost.
+                count += 1 # Reset the value when the new streak is lost.
 
         else:
             numberOfSameSide = 1
