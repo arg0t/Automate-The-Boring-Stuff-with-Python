@@ -1,7 +1,18 @@
+# Linux swap files
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+# virtualenv
+bin/
+lib/
+lib64
+pyvenv.cfg
+share/
 
-/Exercises
+# my files
+/backup
+
